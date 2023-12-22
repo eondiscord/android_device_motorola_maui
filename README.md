@@ -8,5 +8,5 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 ```
-# android_device_motorola_maui
-# android_device_motorola_maui
+# Known issues  
+- Touch likely will not work
