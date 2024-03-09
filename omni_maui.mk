@@ -8,14 +8,14 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common AOSP stuff, maybe itll actually work.
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Inherit from maui device
 $(call inherit-product, device/motorola/maui/device.mk)
 
 PRODUCT_DEVICE := maui
-PRODUCT_NAME := omni_maui
+PRODUCT_NAME := aosp_maui
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g play - 2023
 PRODUCT_MANUFACTURER := motorola
