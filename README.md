@@ -1,12 +1,3 @@
-# Android device tree for motorola moto g play - 2023 (maui)
+**DO NOT USE**
 
-```
-#
-# Copyright (C) 2023 The Android Open Source Project
-# Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-```
-# Known issues  
-- Touch likely will not work
+The device tree for TWRP was made incorrectly and the code in here does NOT work.
